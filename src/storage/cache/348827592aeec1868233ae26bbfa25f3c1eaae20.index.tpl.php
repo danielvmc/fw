@@ -5,82 +5,59 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '348827592aeec1868233ae26bbfa25f3c1eaae20' => 
     array (
       0 => '/home/vagrant/Code/www/fw/src/resources/templates/welcome/index.tpl',
-      1 => 1418214536,
-      2 => 'file',
-    ),
-    'a0ad89264fba5c4b57e75d2b10789947e0b514dc' => 
-    array (
-      0 => '/home/vagrant/Code/www/fw/src/resources/templates/layout/base.tpl',
-      1 => 1418214536,
-      2 => 'file',
-    ),
-    '942a1846f8922723cd5cc296646fb940caefa272' => 
-    array (
-      0 => '/home/vagrant/Code/www/fw/src/resources/templates/layout/header.tpl',
-      1 => 1418214536,
-      2 => 'file',
-    ),
-    'd663d3c69a475b1980e4f0ceb5e14fe2fd0c7256' => 
-    array (
-      0 => '/home/vagrant/Code/www/fw/src/resources/templates/layout/footer.tpl',
-      1 => 1418214536,
+      1 => 1418217713,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '88396573654883d1ce6c6a1-40864352',
-  'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_54883d1d1ae274_41054526',
   'cache_lifetime' => 3600,
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_548848fa70fe40_48136583',
+  'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54883d1d1ae274_41054526')) {function content_54883d1d1ae274_41054526($_smarty_tpl) {?><!DOCTYPE html>
-<html lang="en">
+<?php if ($_valid && !is_callable('content_548848fa70fe40_48136583')) {function content_548848fa70fe40_48136583($_smarty_tpl) {?><html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 
-<head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                color: #B0BEC5;
+                display: table;
+                font-weight: 100;
+                font-family: 'Lato';
+            }
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+            .container {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
 
-    <title></title>
+            .content {
+                text-align: center;
+                display: inline-block;
+            }
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+            .title {
+                font-size: 96px;
+                margin-bottom: 40px;
+            }
 
-    <!-- Custom CSS -->
-    <link href="css/main.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-
-Welcome to the simple php framework
-
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/main.js"></script>
-
-</body>
-
-</html><?php }} ?>
+            .quote {
+                font-size: 24px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <div class="title">Simple Framework</div>
+            </div>
+        </div>
+    </body>
+</html>
+<?php }} ?>
